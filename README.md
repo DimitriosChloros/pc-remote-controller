@@ -1,7 +1,7 @@
 # PC Remote Controller - Official Website
 This repository contains the source code for the official project website for the PC Remote Controller application. The site is built with Jekyll and is hosted on GitHub Pages.
 
-**Live Website:** https://dimitrioschloros.github.io/PC-Remote-Controller/
+**Live Website:** [https://dimitrioschloros.github.io/PC-Remote-Controller/](https://dimitrioschloros.github.io/pc-remote-controller/)
 
 ## Central Versioning
 
