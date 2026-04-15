@@ -8,17 +8,17 @@
     "macos": {
       "latest_version": "2.1.0",
       "critical_below_version": "2.0.2",
-      "update_url": "https://github.com/your/repo/releases/latest"
+      "update_url": "https://www.pcremotecontroller.com/#cta"
     },
     "linux": {
       "latest_version": "2.1.0",
       "critical_below_version": "2.0.2",
-      "update_url": "https://your-site.com/download/linux"
+      "update_url": "https://www.pcremotecontroller.com/#cta"
     }
   },
   "android_client": {
-    "latest_version": "2.0.0",
-    "critical_below_version": "2.0.0",
+    "latest_version": "2.0.1",
+    "critical_below_version": "2.0.1",
     "store_url": "https://play.google.com/store/apps/details?id=com.aslanov.chloros.remotecontroller"
   }
 }
