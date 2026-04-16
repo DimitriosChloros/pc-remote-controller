@@ -2,8 +2,8 @@
   "desktop": {
     "windows": {
       "latest_version": "2.1.0",
-      "critical_below_version": "2.0.2",
-      "update_url": "https://apps.microsoft.com/store/detail/your-app-id"
+      "critical_below_version": "2.1.0",
+      "update_url": "https://www.pcremotecontroller.com/"
     },
     "macos": {
       "latest_version": "2.1.0",
