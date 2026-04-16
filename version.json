@@ -3,7 +3,7 @@
     "windows": {
       "latest_version": "2.1.0",
       "critical_below_version": "2.1.0",
-      "update_url": "https://www.pcremotecontroller.com/"
+      "update_url": "https://apps.microsoft.com/detail/9P2Z8FNQ4NL6"
     },
     "macos": {
       "latest_version": "2.1.0",
