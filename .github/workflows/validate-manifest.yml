@@ -1,0 +1,23 @@
+# version.json is read by every shipped app, so an edit reaches every user at once (backlog E1).
+name: Validate manifest
+
+on:
+  push:
+    branches: [main]
+    paths: ['version.json', 'scripts/**', '.github/workflows/validate-manifest.yml']
+  pull_request:
+    paths: ['version.json', 'scripts/**', '.github/workflows/validate-manifest.yml']
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validator tests
+        run: node --test scripts/validate-manifest.test.mjs
+      - name: Validate version.json, including that every store link answers
+        run: node scripts/validate-manifest.mjs version.json --check-urls
